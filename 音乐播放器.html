@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/resert.css"/>
+		<link rel="stylesheet" type="text/css" href="css/music.css"/>
+	</head>
+	<body>
+		<header class=""></header>
+		<section class="section"></section>
+		<footer class="footer">
+			<nav>
+				<li><i></i></li>
+				<li><i></i></li>
+				<li><i></i></li>
+				<li><i></i></li>
+				<li><i></i></li>
+			</nav>
+		</footer>
+	</body>
+	<script type="text/javascript">
+		var touchEvent={
+			touchstart:"touchstart",
+			touchmove:"touchmove",
+			touchend:"touchend",
+			isPc:function(){
+				var Agents=["Android","BB10","iPhone","SymbianOS","Windows Phone","iPad","iPod"];
+				var usergent=navigator.userAgent;
+				var isFlag=true;
+				for (var i=0;i<Agents.length;i++) {
+					if(usergent.indexOf(Agents[i]!=-1)){
+						isFlag=false;
+						break;
+					}
+				}
+				return isFlag;
+			},
+			initEvent:function(){
+				if(this.isPc()){
+					this.touchstart="mousedown";
+					this.touchmove="mousemove";
+					this.touchend="mouseup";
+				}
+			}
+		}
+	</script>
+</html>

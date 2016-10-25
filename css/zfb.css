@@ -1,0 +1,100 @@
+body, html {
+  width: 100%;
+  height: 100%; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 26%;
+  background-color: #3a3a3a;
+  color: #fff;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column; }
+  header .header1 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    font-size: 18px;
+    padding-top: 1%;
+    box-sizing: border-box;
+    padding-left: 2%; }
+    header .header1 div {
+      flex: 1; }
+    header .header1 div:nth-of-type(1) {
+      flex: 7; }
+  header .header2 {
+    width: 100%;
+    height: 84%;
+    display: flex;
+    color: white; }
+    header .header2 div {
+      flex: 1;
+      flex-direction: row;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+
+.content {
+  margin-top: 46%;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column; }
+  .content .nav {
+    flex: 1;
+    display: flex; }
+    .content .nav div {
+      border: 1px solid silver;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+
+.lunbo {
+  width: 100%;
+  height: 13%;
+  margin: 2% 0;
+  overflow: hidden; }
+  .lunbo img {
+    width: 100%;
+    height: 100%; }
+
+.content1 {
+  width: 100%;
+  height: 53%;
+  margin-bottom: 20%;
+  display: flex;
+  flex-direction: column; }
+  .content1 .nav {
+    display: flex;
+    flex: 1; }
+    .content1 .nav div {
+      border: 1px solid silver;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+
+.footer {
+  width: 100%;
+  height: 10%;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  display: flex; }
+  .footer div.active {
+    color: #07a7e2; }
+  .footer div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+/*# sourceMappingURL=zfb.css.map */
