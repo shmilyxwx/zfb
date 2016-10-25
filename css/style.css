@@ -1,0 +1,29 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+#header, #footer {
+  flex: 1;
+  background: red;
+  display: flex; }
+
+#main {
+  flex: 8;
+  background: yellow;
+  display: flex; }
+  #main #left {
+    flex: 1;
+    background: saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #main #middle {
+    flex: 8;
+    background: firebrick; }
+  #main #right {
+    flex: 1;
+    background: darkcyan; }
+
+/*# sourceMappingURL=style.css.map */
